@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig host="13.125.75.156" id="c0c1630d-a347-4987-90a8-dbd78eeba70e" keyPath="$USER_HOME$/Documents/sideFront.pem" port="22" customName="sidefront" nameFormat="CUSTOM" username="ubuntu">
+        <option name="customName" value="sidefront" />
+      </sshConfig>
+    </configs>
+  </component>
+</project>

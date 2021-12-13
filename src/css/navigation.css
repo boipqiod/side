@@ -1,0 +1,117 @@
+#navigation{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 60px;
+    margin: 0;
+    background: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    z-index: 10;
+}
+#navTitle{
+    font-weight: bold;
+    font-size: 3vw;
+    justify-self: left;
+    padding-left: 30px;
+}
+#toTitle{
+    text-decoration: none;
+    color: red;
+}
+#toTitle img{
+    width: 10vw;
+}
+#search{
+    position: relative;
+    text-align: right;
+    justify-self: end;
+    display: flex;
+    height: 30px;
+    justify-content: flex-end;
+    align-items: center;
+    right: 0%;
+    width: 300px;
+    padding-right: 10vw;
+}
+#searchInput{
+    color: white;
+    width: 1000px;
+    border: none;
+    height: 30px;
+    padding: 3px 0 3px 10px;
+    border: white 1px solid;
+    background-color: black;
+    /*visibility: hidden;*/
+    justify-self: right;
+}
+#searchBtn{
+    position: absolute;
+    top: 15%;
+    right: 30%;
+    width: 20px;
+    height: 20px;
+}
+#icon{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    cursor: pointer;
+    border: none;
+}
+.iconColorRed{
+    background-color: red;
+}
+.iconColorGreen{
+    background-color: green;
+}
+#login{
+    display: flex;
+    align-items: center;
+}
+#login p{
+    padding-right: 10px;
+}
+/*모바일*/
+@media all and (max-width:1025px) {
+    #navigation{
+        height: 40px;
+    }
+    #navTitle{
+        font-size: 40px;
+    }
+    #navTitle{
+        font-weight: bold;
+        font-size: 3vw;
+        justify-self: left;
+        padding-left: 10px;
+    }
+    #toTitle{
+        text-decoration: none;
+        color: red;
+    }
+    #search{
+        right: 0%;
+        width: 60vw;
+        padding-right: 3vw;
+        margin-left: 10px;
+    }
+    #searchInput{
+        /*width: 30vw;*/
+        font-size: 3vw;
+        height: 4.5vw;
+        border: none;
+        /*padding: 3px 0 3px 10px;*/
+        border: white 1px solid;
+        background-color: black;
+    }
+    #searchBtn{
+        position: relative;
+        top: 50%;
+        right: 5vw;
+        width: 10px;
+        height: 15px;
+    }
+}

@@ -1,0 +1,45 @@
+body{
+    background-color: #212121;
+
+}
+#successPage{
+    display: grid;
+    margin: 10% 20%;
+    text-align: center;
+}
+#authPage{
+    position: relative;
+    top: 150px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+#authContents{
+    position: relative;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    width: 400px;
+    height: 600px;
+    background-color: #ffffff;
+    border-radius: 30px;
+}
+#authForm{
+    display: grid;
+}
+#qrBtn{
+    color: white;
+    width: 200px;
+    height: 200px;
+    background-color: #5a5afa;
+    border: none;
+    border-radius: 10%;
+}
+#changeBte{
+    color: white;
+    border: none;
+    background-color: #5a5afa;
+    width: 80px;
+    height: 80px;
+    border-radius: 10%;
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="bfb65b21-9067-4bee-9e74-cf0096b11889" name="sidefront">
+        <fileTransfer rootFolder="/home/ubuntu/side-project" accessType="SFTP" host="13.125.75.156" port="22" sshConfigId="c0c1630d-a347-4987-90a8-dbd78eeba70e" sshConfig="sidefront" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

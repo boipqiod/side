@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+
+}
+h1{
+    margin: 0;
+}
+#test{
+}
+#toDetail{
+    text-decoration: none;
+    color: white;
+}
+#bannerDiv{
+    margin-top: 40px;
+    height: 40vw;
+    background-color: #212121;
+}
+#banner{
+    width: 100%;
+    height: 40vw;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    background: linear-gradient(to bottom , rgba(128, 128, 128, 0), rgba(91, 91, 91, 0.4), #212121);
+}
+#bannerBackdrop{
+    position: absolute;
+    z-index: -1;
+    width: 20%;
+    height: 50vw;
+}
+#bannerBackdrop img{
+    position: relative;
+    width: 80%;
+    height: 100%;
+}
+#bannerContents{
+    position: relative;
+    height: 80%;
+    width: 80%;
+    color: white;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#bannerImage{
+    width: 30vw;
+}
+#bannerImage img{
+    width: 80%;
+    border-radius: 5%;
+    border: rgba(255, 255, 255, 0.5) 2px inset;
+}
+#bannerTitle{
+    font-size: 5vw;
+}
+#bannerGenre{
+    margin-left: 20px;
+    font-size: 1.5vw;
+}
+#bannerOverview{
+    margin: 20px;
+    font-size: 1.5vw;
+    color: #c5c5c5;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+/*PC환경*/
+@media all and (min-width:1025px) {
+    #bannerDiv{
+        margin-top: 60px;
+        height: 420px;
+    }
+    #banner{
+        height: 420px;
+    }
+    #bannerBackdrop{
+        width: 800px;
+        height: 420px;
+    }
+    #bannerBackdrop img{
+        left: 25%;
+        width: 100%;
+        height: 100%;
+    }
+    #bannerImage{
+        width: 100%;
+    }
+    #bannerImage img{
+        width: 280px;
+    }
+    #bannerTitle{
+        font-size: 50px;
+    }
+    #bannerGenre{
+        font-size: 15px;
+    }
+    #bannerOverview{
+        font-size: 15px;
+    }
+}

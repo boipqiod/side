@@ -1,0 +1,95 @@
+#movieSlideLists{
+    background-color: #212121;;
+    margin-top: 0px;
+}
+#movieListSlide{
+    color: white;
+    padding: 50px 30px 0 30px;
+}
+#movieListSlideGenre{
+    font-size: 25px;
+    color: white;
+    margin-left: 30px;
+    padding: 10px;
+}
+#movieList{
+    position: relative;
+    top: 0;
+    width: 100%;
+    display: flex;
+}
+#movieListItem{
+    position: relative;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+#movieListItem:hover #movieListImages{
+    opacity: 0.2;
+}
+#movieListItem:hover  #movieListInfo{
+    cursor: pointer;
+    display: block;
+}
+#movieListImages{
+    position: relative;
+    width: 90%;
+    height: 100%;
+    cursor: pointer;
+    border-radius: 5%;
+}
+#movieListImages:hover ~  #movieListInfo{
+    cursor: pointer;
+    display: block;
+}
+/*#movieListInfo:hover{*/
+/*    cursor: pointer;*/
+/*    display: block;*/
+/*}*/
+/*#movieListInfo:hover ~ #movieListImages{*/
+/*    opacity: 0.2;*/
+/*}*/
+#movieListInfo{
+    position: absolute;
+    top: 0%;
+    width: 90%;
+    height: 100%;
+    overflow: hidden;
+    color: white;
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+    align-items: start;
+    justify-items: left;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0);
+    display: none;
+}
+#movieListTitle{
+    padding: 15px 0 0px 15px;
+    margin: 0;
+    font-size: 14px;
+}
+#movieListGenre{
+    padding-left: 15px;
+    margin: 0;
+    font-size: 11px;
+}
+#movieListOverview{
+    padding: 15px;
+    margin: 5px;
+    font-size: 12px;
+    text-overflow: ellipsis;
+}
+/*모바일환경*/
+@media all and (max-width:1025px) {
+    #movieListSlide{
+        padding: 50px 5px 0 5px;
+    }
+    #movieListSlideGenre{
+        font-size: 4vw;
+        margin-left: 5px;
+    }
+    #movieListOverview{
+        font-size: 1.5vw;
+    }
+}
